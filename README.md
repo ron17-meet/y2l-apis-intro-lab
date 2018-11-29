@@ -9,11 +9,11 @@
 ## Part 1: JSON manipulation
 Start the server by running the app.py file (`python app.py`) and go to the homepage and click around to understand what's already provided for you.
 
-Change the `/movie` (in app.py) route and 'parse' the json string and return to the user the details about the movie specified in the variable `json_string` 
+Change the `/movie` (in app.py) function and 'parse' the json string and return to the user the details about the movie specified in the variable `json_string` 
  - When you visit http://127.0.0.1:5000/movie you should be able to see the title of the movie, the release date, and an image of the movie
  
 ### **Bonus:** 
-Change the `/tv_shows` route and 'parse' the `json_string` variable to show now a list of the tv shows. Visiting http://127.0.0.1:5000/tv_shows should show you a list of TV shows that have name, language, and genres for the show
+Change the `/tv_shows` function and 'parse' the `json_string` variable to show now a list of the tv shows. Visiting http://127.0.0.1:5000/tv_shows should show you a list of TV shows that have name, language, and genres for the show
 
 ## Part 2: Calling your first APIs!
 If you visit https://dog.ceo/api/breeds/list/all 
